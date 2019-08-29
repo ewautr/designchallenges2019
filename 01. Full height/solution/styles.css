@@ -1,15 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-    margin: 0;
+  margin: 0;
 }
 
 header {
-    background-color: lightskyblue;
+  background-color: lightskyblue;
+  height: 70px;
 }
 
 main {
-    background-color: lightcyan;
+  background-color: lightcyan;
+  min-height: calc(100vh - 140px);
 }
 
 footer {
-    background-color: lightblue;
+  background-color: lightblue;
+  height: 70px;
 }
